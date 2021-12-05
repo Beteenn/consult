@@ -1,0 +1,9 @@
+{
+    "name": "Consult",
+    "version": "1.0",
+    "description": "Consulta de CEP, CPF, CNPJ",
+    "browser_action": {
+        "default_popup": "index.html"
+    },
+    "manifest_version": 2
+}

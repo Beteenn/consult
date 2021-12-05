@@ -1,0 +1,111 @@
+body {
+    width: auto;
+    height: auto;
+    padding: 0px 0px 20px 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+::selection {
+    background: #295781;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0px 0px 20px 0px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23486a;
+    width: 250px;
+    height: 50px;
+    border-radius: 7px;
+    margin: 20px auto;
+    padding: auto;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #295781;
+    transition: 0.2s;
+}
+
+#result {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ebebeb;
+    border-radius: 7px;
+    width: 250px;
+    height: 50px;
+    margin: 20px auto;
+}
+
+#dado {
+    background-color: #ebebeb;
+    font-size: 18px;
+    font-weight: 600;
+    width: 170px;
+    outline: none;
+    border: none;
+}
+
+#dado:active {
+    border: none;
+    outline: none;
+}
+
+.icon {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 7px;
+    opacity: 0.2;
+}
+
+.icon:hover {
+    opacity: 1;
+}
+
+.icon:active {
+    background-color: #bdbbbb;
+}
+
+#copiado {
+    display: none;
+    transition: 0.3s;
+}
+
+#copiado.active {
+    position: absolute;
+    bottom: 5px;
+    left: 92px;
+    display: flex;
+    justify-content: center;
+    background-color: #23486a;
+    border-radius: 7px;
+    width: 60px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.potuacoes {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.switch-label {
+    font-size: 14px;
+    font-weight: 500;
+}
